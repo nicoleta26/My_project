@@ -1,3 +1,118 @@
+* {
+  box-sizing: border-box; }
 
+html {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.operations {
+  height: 20%; }
+
+.container {
+  height: 100vh; }
+
+.col-12 {
+  padding: 0px; }
+
+.footer {
+  height: 10vh;
+  width: 100vw;
+  margin: 0px; }
+  .footer nav {
+    background-color: #d1d2d3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.2em 0em 0.2em 0em; }
+    .footer nav button {
+      font-family: 'Comfortaa', cursive;
+      font-size: 1em;
+      color: #666464;
+      font-weight: bolder;
+      background-color: #f9fbfc;
+      width: 30vw;
+      height: 100%;
+      border-radius: 0.5em;
+      box-shadow: none;
+      border: none;
+      margin: 0; }
+
+header {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0rem 0.2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header div {
+    color: #3B3B3B;
+    padding: 0px 25px 0px 25px; }
+    header div i.fa {
+      font-size: 3rem; }
+
+.center-row {
+  height: 60%; }
+
+.main {
+  background-color: #d1d2d3;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+#filters {
+  display: flex;
+  justify-content: flex-start; }
+  #filters .filter {
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+    flex-direction: column;
+    padding: 0px 7px 0px 7px;
+    align-items: center;
+    justify-content: left; }
+    #filters .filter .filter-btn {
+      display: block;
+      height: auto; }
+    #filters .filter img {
+      height: 100%;
+      width: 100%;
+      border: solid #666464 2px;
+      margin: 0;
+      flex-shrink: 0; }
+    #filters .filter span {
+      font-size: 1em;
+      line-height: 1.5em;
+      color: #666464;
+      font-weight: bolder;
+      display: block;
+      float: left; }
+
+#tunning {
+  display: flex;
+  justify-content: flex-start; }
+  #tunning .filter {
+    display: flex;
+    width: 120px;
+    height: 210px;
+    flex-direction: column;
+    padding: 0px 7px 0px 7px;
+    align-items: center;
+    justify-content: left; }
+
+header div i.fa {
+  font-size: 1.5rem;
+  color: #3B3B3B; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
